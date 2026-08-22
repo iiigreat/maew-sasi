@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Seller ───────────────────────────────────────────────────────────────────
+model Seller {
+  id        String       @id @default(cuid())
+  name      String
+  code      String?
+  status    String       @default("active") // "active" | "inactive"
+  entries   DailyEntry[]
+  createdAt DateTime     @default(now())
+
+  @@map("sellers")
+}
+
+// ─── Grade ────────────────────────────────────────────────────────────────────
+model Grade {
+  id    String  @id
+  name  String
+  price Float
+  badge String?
+  color String?
+
+  @@map("grades")
+}
+
+// ─── DailyEntry ───────────────────────────────────────────────────────────────
+model DailyEntry {
+  id          String        @id @default(cuid())
+  date        String        // "YYYY-MM-DD"
+  sellerId    String
+  sellerName  String
+  totalWeight Float
+  grandTotal  Float
+  note        String?
+  createdAt   DateTime      @default(now())
+
+  seller  Seller        @relation(fields: [sellerId], references: [id])
+  weights WeightEntry[]
+
+  @@index([date])
+  @@index([sellerId])
+  @@map("daily_entries")
+}
+
+// ─── WeightEntry ─────────────────────────────────────────────────────────────
+model WeightEntry {
+  id           String     @id @default(cuid())
+  dailyEntryId String
+  gradeId      String
+  gradeName    String
+  price        Float
+  weight       Float
+  subtotal     Float
+
+  dailyEntry DailyEntry @relation(fields: [dailyEntryId], references: [id], onDelete: Cascade)
+
+  @@index([dailyEntryId])
+  @@map("weight_entries")
+}

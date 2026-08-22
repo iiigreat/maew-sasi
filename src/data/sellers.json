@@ -1,0 +1,12 @@
+[
+  { "id": "s1", "name": "สมชาย ทัพผล",    "code": "AG-001", "status": "active" },
+  { "id": "s2", "name": "วิไลกัญญา มั่นคง", "code": "AG-002", "status": "active" },
+  { "id": "s3", "name": "ลำนาจ เจริญดี",   "code": "AG-003", "status": "active" },
+  { "id": "s4", "name": "ประกาศ เขียวสาย", "code": "AG-004", "status": "active" },
+  { "id": "s5", "name": "ลุงบุญส่ง",       "code": "AG-005", "status": "active" },
+  { "id": "s6", "name": "น้าสมปอง",        "code": "AG-006", "status": "active" },
+  { "id": "s7", "name": "ป้าจันทร์",       "code": "AG-007", "status": "inactive" },
+  { "id": "s8", "name": "สมร รักเกษตร",    "code": "AG-008", "status": "active" },
+  { "id": "s9", "name": "วิชัย ส่วนสวย",   "code": "AG-009", "status": "active" },
+  { "id": "s10","name": "นางประนอม มุ่งมั่น","code": "AG-010","status": "active" }
+]

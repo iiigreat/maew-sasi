@@ -1,0 +1,164 @@
+[
+  {
+    "id": "e001", "date": "2026-08-13", "sellerId": "s8", "sellerName": "สมร รักเกษตร",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 12.5, "subtotal": 1500 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 8.0, "subtotal": 760 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 5.5, "subtotal": 467.5 }
+    ],
+    "totalWeight": 26.0, "grandTotal": 2727.5, "createdAt": "2026-08-13T08:30:00.000Z"
+  },
+  {
+    "id": "e002", "date": "2026-08-13", "sellerId": "s9", "sellerName": "วิชัย ส่วนสวย",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 6.0, "subtotal": 720 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 10.0, "subtotal": 850 },
+      { "gradeId": "c-toom", "gradeName": "C ตูม", "price": 45, "weight": 4.0, "subtotal": 180 }
+    ],
+    "totalWeight": 20.0, "grandTotal": 1750, "createdAt": "2026-08-13T09:00:00.000Z"
+  },
+  {
+    "id": "e003", "date": "2026-08-14", "sellerId": "s10", "sellerName": "นางประนอม มุ่งมั่น",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 20.0, "subtotal": 2400 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 8.0, "subtotal": 760 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 7.0, "subtotal": 595 },
+      { "gradeId": "b-baan", "gradeName": "B บาน", "price": 65, "weight": 3.0, "subtotal": 195 }
+    ],
+    "totalWeight": 38.0, "grandTotal": 3950, "createdAt": "2026-08-14T08:00:00.000Z"
+  },
+  {
+    "id": "e004", "date": "2026-08-14", "sellerId": "s8", "sellerName": "สมร รักเกษตร",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 5.5, "subtotal": 660 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 4.0, "subtotal": 340 }
+    ],
+    "totalWeight": 9.5, "grandTotal": 1000, "createdAt": "2026-08-14T08:30:00.000Z"
+  },
+  {
+    "id": "e005", "date": "2026-08-15", "sellerId": "s9", "sellerName": "วิชัย ส่วนสวย",
+    "entries": [
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 10.0, "subtotal": 950 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 6.0, "subtotal": 510 },
+      { "gradeId": "c-toom", "gradeName": "C ตูม", "price": 45, "weight": 3.0, "subtotal": 135 }
+    ],
+    "totalWeight": 19.0, "grandTotal": 1595, "createdAt": "2026-08-15T09:00:00.000Z"
+  },
+  {
+    "id": "e006", "date": "2026-08-15", "sellerId": "s10", "sellerName": "นางประนอม มุ่งมั่น",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 18.0, "subtotal": 2160 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 6.0, "subtotal": 570 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 5.0, "subtotal": 425 }
+    ],
+    "totalWeight": 29.0, "grandTotal": 3155, "createdAt": "2026-08-15T08:15:00.000Z"
+  },
+  {
+    "id": "e007", "date": "2026-08-16", "sellerId": "s8", "sellerName": "สมร รักเกษตร",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 8.0, "subtotal": 960 },
+      { "gradeId": "b-baan", "gradeName": "B บาน", "price": 65, "weight": 5.0, "subtotal": 325 },
+      { "gradeId": "c-toom", "gradeName": "C ตูม", "price": 45, "weight": 2.0, "subtotal": 90 },
+      { "gradeId": "offgrade", "gradeName": "ตกเกรด / อื่นๆ", "price": 10, "weight": 1.5, "subtotal": 15 }
+    ],
+    "totalWeight": 16.5, "grandTotal": 1390, "createdAt": "2026-08-16T08:00:00.000Z"
+  },
+  {
+    "id": "e008", "date": "2026-08-17", "sellerId": "s1", "sellerName": "สมชาย ทัพผล",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 15.0, "subtotal": 1800 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 10.0, "subtotal": 950 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 8.0, "subtotal": 680 },
+      { "gradeId": "b-baan", "gradeName": "B บาน", "price": 65, "weight": 4.5, "subtotal": 292.5 }
+    ],
+    "totalWeight": 37.5, "grandTotal": 3722.5, "createdAt": "2026-08-17T08:00:00.000Z"
+  },
+  {
+    "id": "e009", "date": "2026-08-17", "sellerId": "s2", "sellerName": "วิไลกัญญา มั่นคง",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 10.0, "subtotal": 1200 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 6.0, "subtotal": 510 },
+      { "gradeId": "c-baan", "gradeName": "C บาน", "price": 30, "weight": 2.0, "subtotal": 60 }
+    ],
+    "totalWeight": 18.0, "grandTotal": 1770, "createdAt": "2026-08-17T09:00:00.000Z"
+  },
+  {
+    "id": "e010", "date": "2026-08-17", "sellerId": "s10", "sellerName": "นางประนอม มุ่งมั่น",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 22.0, "subtotal": 2640 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 7.0, "subtotal": 665 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 10.0, "subtotal": 850 }
+    ],
+    "totalWeight": 39.0, "grandTotal": 4155, "createdAt": "2026-08-17T08:30:00.000Z"
+  },
+  {
+    "id": "e011", "date": "2026-08-18", "sellerId": "s1", "sellerName": "สมชาย ทัพผล",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 45.5, "subtotal": 5460 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 0.0, "subtotal": 0 }
+    ],
+    "totalWeight": 45.5, "grandTotal": 5460, "createdAt": "2026-08-18T08:00:00.000Z"
+  },
+  {
+    "id": "e012", "date": "2026-08-18", "sellerId": "s2", "sellerName": "วิไลกัญญา มั่นคง",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 12.0, "subtotal": 1440 },
+      { "gradeId": "b-baan", "gradeName": "B บาน", "price": 65, "weight": 7.2, "subtotal": 468 }
+    ],
+    "totalWeight": 32.2, "grandTotal": 1908, "note": "ส่งมาช้า เช็คน้ำหนักใหม่", "createdAt": "2026-08-18T09:15:00.000Z"
+  },
+  {
+    "id": "e013", "date": "2026-08-18", "sellerId": "s3", "sellerName": "ลำนาจ เจริญดี",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 30.0, "subtotal": 3600 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 20.0, "subtotal": 1900 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 18.0, "subtotal": 1530 }
+    ],
+    "totalWeight": 68.0, "grandTotal": 7030, "createdAt": "2026-08-18T08:45:00.000Z"
+  },
+  {
+    "id": "e014", "date": "2026-08-18", "sellerId": "s4", "sellerName": "ประกาศ เขียวสาย",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 12.0, "subtotal": 1440 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 8.4, "subtotal": 714 },
+      { "gradeId": "c-baan", "gradeName": "C บาน", "price": 30, "weight": 4.3, "subtotal": 129 }
+    ],
+    "totalWeight": 24.7, "grandTotal": 2283, "createdAt": "2026-08-18T10:00:00.000Z"
+  },
+  {
+    "id": "e015", "date": "2026-08-19", "sellerId": "s1", "sellerName": "สมชาย ทัพผล",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 20.0, "subtotal": 2400 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 12.0, "subtotal": 1140 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 13.5, "subtotal": 1147.5 }
+    ],
+    "totalWeight": 45.5, "grandTotal": 4687.5, "createdAt": "2026-08-19T08:00:00.000Z"
+  },
+  {
+    "id": "e016", "date": "2026-08-19", "sellerId": "s2", "sellerName": "วิไลกัญญา มั่นคง",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 10.0, "subtotal": 1200 },
+      { "gradeId": "b-baan", "gradeName": "B บาน", "price": 65, "weight": 14.5, "subtotal": 942.5 },
+      { "gradeId": "c-toom", "gradeName": "C ตูม", "price": 45, "weight": 7.7, "subtotal": 346.5 }
+    ],
+    "totalWeight": 32.2, "grandTotal": 2489, "createdAt": "2026-08-19T08:20:00.000Z"
+  },
+  {
+    "id": "e017", "date": "2026-08-19", "sellerId": "s3", "sellerName": "ลำนาจ เจริญดี",
+    "entries": [
+      { "gradeId": "a-toom", "gradeName": "A ตูม", "price": 120, "weight": 40.0, "subtotal": 4800 },
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 15.0, "subtotal": 1425 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 13.0, "subtotal": 1105 }
+    ],
+    "totalWeight": 68.0, "grandTotal": 7330, "createdAt": "2026-08-19T08:30:00.000Z"
+  },
+  {
+    "id": "e018", "date": "2026-08-19", "sellerId": "s4", "sellerName": "ประกาศ เขียวสาย",
+    "entries": [
+      { "gradeId": "a-baan", "gradeName": "A บาน", "price": 95, "weight": 10.0, "subtotal": 950 },
+      { "gradeId": "b-toom", "gradeName": "B ตูม", "price": 85, "weight": 8.0, "subtotal": 680 },
+      { "gradeId": "c-baan", "gradeName": "C บาน", "price": 30, "weight": 6.7, "subtotal": 201 }
+    ],
+    "totalWeight": 24.7, "grandTotal": 1831, "createdAt": "2026-08-19T09:00:00.000Z"
+  }
+]
