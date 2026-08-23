@@ -1,15 +1,18 @@
 import { PrismaClient } from '@prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
+import { Pool } from 'pg';
 
 // ป้องกัน hot-reload สร้าง connection ใหม่ซ้ำๆ ใน dev mode
 const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
 
 function createPrismaClient(): PrismaClient {
-  const adapter = new PrismaPg({
+  // สร้าง pg.Pool โดยตรงพร้อม ssl config เพื่อรองรับ Aiven self-signed cert
+  const pool = new Pool({
     connectionString: process.env.DATABASE_URL!,
-    // Aiven ใช้ self-signed cert — ต้องปิด rejectUnauthorized
     ssl: { rejectUnauthorized: false },
   });
+
+  const adapter = new PrismaPg(pool);
 
   return new PrismaClient({
     adapter,

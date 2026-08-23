@@ -8,7 +8,7 @@ export async function GET() {
     return NextResponse.json(grades);
   } catch (error) {
     console.error('[GET /api/grades]', error);
-    return NextResponse.json({ error: 'ไม่สามารถดึงข้อมูลเกรดได้', detail: String(error) }, { status: 500 });
+    return NextResponse.json({ error: 'ไม่สามารถดึงข้อมูลเกรดได้' }, { status: 500 });
   }
 }
 
